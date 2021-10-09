@@ -2,14 +2,20 @@ package ir.adicom.app.androidbasicsinkotlin
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import androidx.navigation.fragment.NavHostFragment
+import androidx.navigation.ui.setupActionBarWithNavController
 
 /**
- * Creates an Activity that hosts the Game fragment in the app
+ * Activity for cupcake order flow.
  */
-class MainActivity : AppCompatActivity() {
-
+class MainActivity : AppCompatActivity(R.layout.activity_main) {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.main_activity)
+
+        val navHostFragment = supportFragmentManager
+            .findFragmentById(R.id.nav_host_fragment) as NavHostFragment
+        val navController = navHostFragment.navController
+
+        setupActionBarWithNavController(navController)
     }
 }
