@@ -26,6 +26,8 @@ class OverviewFragment : Fragment() {
     ): View? {
         val binding = FragmentOverviewBinding.inflate(inflater)
 //        val binding = GridViewItemBinding.inflate(inflater)
+        binding.photosGrid.adapter = PhotoGridAdapter()
+
 
         // Allows Data Binding to Observe LiveData with the lifecycle of this Fragment
         binding.lifecycleOwner = this

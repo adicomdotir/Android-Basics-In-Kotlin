@@ -5,8 +5,8 @@
 
     <data>
         <variable
-            name="viewModel"
-            type="ir.adicom.app.androidbasicsinkotlin.overview.OverviewViewModel" />
+            name="photo"
+            type="ir.adicom.app.androidbasicsinkotlin.network.MarsPhoto" />
     </data>
 
     <ImageView
@@ -16,6 +16,6 @@
         android:scaleType="fitXY"
         android:adjustViewBounds="true"
         android:padding="2dp"
-        app:imageUrl="@{viewModel.photo.imgSrcUrl}"
+        app:imageUrl="@{photo.imgSrcUrl}"
         tools:src="@tools:sample/backgrounds/scenic"/>
 </layout>
