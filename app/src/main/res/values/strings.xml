@@ -1,5 +1,5 @@
 <!--
-  ~ Copyright (C) 2020 The Android Open Source Project
+  ~ Copyright (C) 2021 The Android Open Source Project.
   ~
   ~ Licensed under the Apache License, Version 2.0 (the "License");
   ~ you may not use this file except in compliance with the License.
@@ -13,35 +13,25 @@
   ~ See the License for the specific language governing permissions and
   ~ limitations under the License.
   -->
-
 <resources>
-    <string name="app_name">Unscramble</string>
-    <string name="order_cupcakes">Order Cupcakes</string>
-    <string name="one_cupcake">One Cupcake</string>
-    <string name="six_cupcakes">Six Cupcakes</string>
-    <string name="twelve_cupcakes">Twelve Cupcakes</string>
-    <string name="choose_flavor">Choose Flavor</string>
-    <string name="vanilla">Vanilla</string>
-    <string name="chocolate">Chocolate</string>
-    <string name="red_velvet">Red Velvet</string>
-    <string name="salted_caramel">Salted Caramel</string>
-    <string name="coffee">Coffee</string>
-    <string name="special_flavor">Special Flavor</string>
-    <string name="cancel">Cancel</string>
-    <string name="next">Next</string>
-    <string name="choose_pickup_date">Choose Pickup Date</string>
-    <string name="order_summary">Order Summary</string>
-    <string name="send">Send Order to Another App</string>
-    <string name="quantity">Quantity</string>
-    <string name="flavor">Flavor</string>
-    <string name="pickup_date">Pickup date</string>
-    <string name="subtotal_price">Subtotal %s</string>
-    <string name="total_price">Total %s</string>
-    <string name="new_cupcake_order">New Cupcake Order</string>
-    <string name="order_details">Quantity: %1$s cupcakes \n Flavor: %2$s \nPickup date: %3$s \n
-        Total: %4$s \n\n Thank you!</string>
-    <plurals name="cupcakes">
-        <item quantity="one">%d cupcake</item>
-        <item quantity="other">%d cupcakes</item>
-    </plurals>
+    <string name="app_name">Inventory</string>
+    <string name="sell">Sell</string>
+    <string name="quantity">Quantity in Stock:</string>
+    <string name="quantity_req">Quantity in Stock <font color='#FF0000'>*</font></string>
+    <string name="item_name_req">Item Name <font color='#FF0000'>*</font></string>
+    <string name="item_price_req">Item Price <font color='#FF0000'>*</font></string>
+    <string name="save_action">Save</string>
+    <string name="item_detail_fragment_title">Item Details</string>
+    <string name="add_fragment_title">Add Item</string>
+    <string name="edit_fragment_title">Edit Item</string>
+    <string name="price">Price</string>
+    <string name="quantity_in_stock">Quantity\nIn Stock</string>
+    <string name="item">Item</string>
+    <string name="delete">Delete</string>
+    <string name="delete_question">Are you sure you want to delete?</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+    <string name="currency_symbol">$</string>
+    <string name="edit_item">Edit Item</string>
+    <string name="add_new_item">Add new item</string>
 </resources>
