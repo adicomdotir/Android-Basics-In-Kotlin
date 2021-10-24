@@ -3,48 +3,25 @@
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    app:startDestination="@id/itemListFragment">
-
+    app:startDestination="@id/mainFragment">
     <fragment
-        android:id="@+id/itemListFragment"
-        android:name="ir.adicom.app.androidbasicsinkotlin.ItemListFragment"
-        android:label="@string/app_name"
-        tools:layout="@layout/item_list_fragment">
+        android:id="@+id/mainFragment"
+        android:name="ir.adicom.app.androidbasicsinkotlin.MainFragment"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main" >
         <action
-            android:id="@+id/action_itemListFragment_to_itemDetailFragment"
-            app:destination="@id/itemDetailFragment" />
-        <action
-            android:id="@+id/action_itemListFragment_to_addItemFragment"
-            app:destination="@id/addItemFragment" />
+            android:id="@+id/action_mainFragment_to_secondFragment"
+            app:destination="@id/secondFragment"
+            app:enterAnim="@anim/fragment_open_enter"
+            app:exitAnim="@anim/fragment_open_exit"
+            app:launchSingleTop="false"
+            app:popEnterAnim="@android:anim/slide_in_left"
+            app:popExitAnim="@android:anim/slide_out_right"
+            app:popUpToInclusive="false" />
     </fragment>
     <fragment
-        android:id="@+id/itemDetailFragment"
-        android:name="ir.adicom.app.androidbasicsinkotlin.ItemDetailFragment"
-        android:label="@string/item_detail_fragment_title"
-        tools:layout="@layout/fragment_item_detail">
-        <argument
-            android:name="item_id"
-            app:argType="integer" />
-        <action
-            android:id="@+id/action_itemDetailFragment_to_addItemFragment"
-            app:destination="@id/addItemFragment" />
-    </fragment>
-    <fragment
-        android:id="@+id/addItemFragment"
-        android:name="ir.adicom.app.androidbasicsinkotlin.AddItemFragment"
-        android:label="{title}"
-        tools:layout="@layout/fragment_add_item">
-        <argument
-            android:name="title"
-            app:argType="string" />
-        <argument
-            android:name="item_id"
-            android:defaultValue="-1"
-            app:argType="integer" />
-        <action
-            android:id="@+id/action_addItemFragment_to_itemListFragment"
-            app:destination="@id/itemListFragment"
-            app:popUpTo="@id/itemListFragment"
-            app:popUpToInclusive="true" />
-    </fragment>
+        android:id="@+id/secondFragment"
+        android:name="ir.adicom.app.androidbasicsinkotlin.SecondFragment"
+        android:label="fragment_second"
+        tools:layout="@layout/fragment_second" />
 </navigation>

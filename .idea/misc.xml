@@ -18,8 +18,10 @@
         <entry key="app/src/main/res/layout/fragment_flavor.xml" value="0.1" />
         <entry key="app/src/main/res/layout/fragment_item_detail.xml" value="0.14764492753623187" />
         <entry key="app/src/main/res/layout/fragment_letter_list.xml" value="0.10552536231884058" />
+        <entry key="app/src/main/res/layout/fragment_main.xml" value="0.2046875" />
         <entry key="app/src/main/res/layout/fragment_overview.xml" value="0.15670289855072464" />
         <entry key="app/src/main/res/layout/fragment_pickup.xml" value="0.14673913043478262" />
+        <entry key="app/src/main/res/layout/fragment_second.xml" value="0.1381340579710145" />
         <entry key="app/src/main/res/layout/fragment_start.xml" value="0.14673913043478262" />
         <entry key="app/src/main/res/layout/fragment_summary.xml" value="0.14719202898550723" />
         <entry key="app/src/main/res/layout/fragment_word_list.xml" value="0.10552536231884058" />
@@ -31,6 +33,7 @@
         <entry key="app/src/main/res/layout/item_view.xml" value="0.10552536231884058" />
         <entry key="app/src/main/res/layout/list_item.xml" value="0.2046875" />
         <entry key="app/src/main/res/layout/main_activity.xml" value="0.10778985507246377" />
+        <entry key="app/src/main/res/layout/recyclerview_item.xml" value="0.12273550724637682" />
         <entry key="app/src/main/res/layout/vertical_horizontal_list_item.xml" value="0.25" />
         <entry key="app/src/main/res/menu/layout_menu.xml" value="0.2046875" />
       </map>
